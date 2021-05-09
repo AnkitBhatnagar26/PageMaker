@@ -1,0 +1,363 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+.footer {
+    z-index: -10;
+    width: 100%;
+    margin-top: 20vh;
+    height: auto;
+    /* Set the fixed height of the footer here */
+}
+
+#measure {
+    position: absolute;
+    left: -10000px;
+    top: -100000px;
+}
+
+@media only screen and (max-width: 750px) {
+    .sp-replacer {
+    padding:4px!important;
+    }
+    .card-body p {
+        position:relative;
+        top:50px;   
+    }
+    #co{
+        margin-top:0px!important;
+    }
+    .modals{
+        margin:0px!important;
+        margin-left:5px!important;
+    }
+    .card{
+
+    transform:rotateZ(90Deg)!important;
+    margin:0px!important;
+     height: 120px!important;
+     margin-left:-25px!important;
+    }
+    .bottomleft {
+        bottom: 41px!important;
+    }
+    #suggestIns {
+        bottom: 81px!important;
+    }
+    .bottomright,
+    .bottomleft {
+        width: 100vw!important;
+    }
+    img {
+        min-width: 23%!important;
+    }
+    .canvas {
+        padding: 0px!important;
+        margin: auto;
+        height: auto!important;
+    }
+    .canvas canvas {
+        margin: auto;
+    }
+    #labels li {
+        width: 108px!important;
+    }
+    .o {
+        width: 51px!important;
+        padding: 0px!important;
+    }
+    /* .card-body {
+        padding: 2px!important;
+    } */
+    #labels {
+        height:287px!important;
+        border-left: 1px solid lightgrey;
+    
+    }
+    #downloads {
+        margin-top: 100px;
+    }
+    #properties {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .card-body{
+        padding:0px!important;
+        width:100px!important;
+        height:20px!important;
+    }
+}
+
+.text {
+    padding: 5px;
+    width: 100%;
+    border: 0px;
+    border-bottom: 2px solid #7db8fa;
+}
+
+.form-control {
+    border-radius: 0px;
+}
+
+.all {
+    border-bottom: 2px solid #7db8fa!important;
+}
+
+h2 {
+    font-size: 20px;
+    padding: font-weight: lighter;
+}
+
+.scrolling-wrapper {
+    overflow-x: hidden;
+    overflow-y: scroll;
+    white-space: nowrap;
+}
+
+.col .btn {
+    padding:0px;
+    margin:0px;
+    height:100%;
+    display: inline;
+    width:45%;
+    border:0px;
+    border-radius: 0px;
+}
+.col .btn img{
+    width:40%!important;
+}
+.o{
+    padding:5px;
+}
+.col select{
+    height:100%;
+}
+.sp-replacer{
+    padding:17%!important;
+}
+.card {
+    height: auto;
+    cursor: default;
+    transform:rotate(0Deg);
+    padding:20px;
+}
+
+.card:hover {
+    background-color: #eeeeee;
+}
+
+.card:active {
+    background-color: #cccccc;
+}
+
+.card:not(.all) {
+    border-bottom: 4px solid grey;
+    border: 1px solid transparent;
+}
+
+.slider {
+    display: block;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.closeL {
+    background-color: transparent;
+    border: transparent;
+}
+
+#labels li {
+    position:relative;
+    height:100px;
+    margin: 0px;
+    padding:5px;
+    width: 140px;
+    margin-top:20px;
+}
+
+#labels {
+    height:400px;
+    width: 200px;
+    overflow-x:hidden;
+   overflow-y: scroll;
+}
+
+.footer {
+    font-size: 14px;
+}
+
+.card-body {
+    height: 65px;
+    border-bottom: 2px solid grey;
+
+}
+
+.mb-3,
+.my-3 {
+    margin-bottom: 0rem!important;
+}
+
+#reg {
+    color: #007bff;
+    cursor: pointer;
+}
+
+#reg:hover {
+    text-decoration: underline;
+}
+
+#reg:active {
+    color: grey;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    .slider {
+        margin: 10px;
+        -webkit-appearance: none;
+        width: 100%;
+        height: 5px;
+        border-radius: 5px;
+        background: #d3d3d3;
+        outline: none;
+        opacity: 0.7;
+        -webkit-transition: .2s;
+        transition: opacity .2s;
+    }
+    .slider::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        appearance: none;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background: #007bff;
+        cursor: pointer;
+    }
+}
+
+
+/* The slider itself */
+
+
+/* width */
+
+::-webkit-scrollbar {
+    width: 2px;
+    height: 10px;
+}
+
+
+/* Track */
+
+::-webkit-scrollbar-track {
+    width: 2px;
+    background: #f1f1f1;
+}
+
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.scrolling-wrapper,
+.scrolling-wrapper-flexbox {
+    margin-bottom: 10px;
+    height: 100px;
+    -webkit-overflow-scrolling: touch;
+    &::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+.pickup {
+    background-color: white;
+    margin-top: 10px;
+    padding: 0px;
+    border: 0px;
+    height: 20px;
+    width: 30px;
+}
+
+.pickupparent {
+    float: right;
+}
+
+.bottomright {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
+
+.bottomleft {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+}
+
+.demo {
+    color: white;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9em;
+    background-color: #007bff;
+    z-index: 10;
+    border: 1px solid black;
+}
+
+.suggest {
+    z-index: 11;
+    background-color: #f9f9f9;
+    border: 1px solid #007bff;
+    width: 303px;
+    bottom: 40px;
+    padding: 20px;
+}
+
+#suggestIns {
+    width: 284px;
+}
+
+.suggest textarea {
+    background-color: #f9f8f8;
+    border: 1px solid black;
+}
+
+html,
+body {
+    height: 100%;
+    overflow-x:hidden;
+}
+
+img {
+    min-width: 20%;
+    width: 20%;
+}
+#container{
+}
+.rowC{
+    display:flex;
+    flex-direction:row;
+}
+#stageparent{
+    width:50vw;
+    height:70vh;
+    overflow:scroll;
+     border:1px solid blue;
+}
+#stageparent::-webkit-scrollbar {
+  /*display: none;*/
+}
+#parent_sub {
+    display: table;
+}
